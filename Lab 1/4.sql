@@ -1,0 +1,3 @@
+ALTER TABLE clients
+ALTER COLUMN status TYPE BOOLEAN
+USING (status::BOOLEAN);
