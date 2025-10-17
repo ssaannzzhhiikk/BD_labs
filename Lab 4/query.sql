@@ -6,6 +6,7 @@ CREATE TABLE Warehouses (
 );
 
 -- 2
+
 CREATE TABLE Boxes (
     code CHAR(4) PRIMARY KEY,
     contents VARCHAR(255),
